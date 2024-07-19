@@ -11,7 +11,7 @@ func main() {
 
 	//Operator Perbandingan
 	angka := 10*10 + 10
-	hasilAngka := (angka == 120)
+	hasilAngka := (angka == 110)
 	hasilAngka1 := (angka < 120)
 	hasilAngka2 := (angka > 120)
 
