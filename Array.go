@@ -39,7 +39,7 @@ func main() {
 	fmt.Println("Data Campur:\t", campuran)
 	fmt.Println("Angka: \t\t", angka)
 	fmt.Println("Array Multi:\t", multiDimensi)
-	for i := 0; i < len(buah); i++ {
-		fmt.Printf("elemen %d : %s\n", i, buah[i])
+	for i, buah := range buah {
+		fmt.Printf("elemen %d: %s\n", i, buah)
 	}
 }
