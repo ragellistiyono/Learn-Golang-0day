@@ -31,9 +31,15 @@ func main() {
 			"Laki-Laki",
 			"Mahasiswa"}}
 
+	// Array for
+	buah := [4]string{"apple", "grape", "banana", "melon"}
+
 	fmt.Println("Nama :\t\t", nama)
 	fmt.Println("Olahraga:\t", olahraga)
 	fmt.Println("Data Campur:\t", campuran)
 	fmt.Println("Angka: \t\t", angka)
 	fmt.Println("Array Multi:\t", multiDimensi)
+	for i := 0; i < len(buah); i++ {
+		fmt.Printf("elemen %d : %s\n", i, buah[i])
+	}
 }
