@@ -32,5 +32,6 @@ func main() {
 	fmt.Println(bJagoan)
 	fmt.Println(aaJagoan)
 	fmt.Println(bbJagoan)
+	fmt.Println(len(badminton))
 
 }
